@@ -8,7 +8,7 @@ last_count = 0, //this variable is to check previous count value
 connection = mysql.createConnection({
 host: 'localhost',
 user: 'root',
-password: '', //put your own mysql pwd
+password: 'root', //put your own mysql pwd
 database: 'poll123', //put your database name
 port: 3306
 }),
